@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="parent logInForm text-center p-4  ">
+        <h1 class="py-3">Smart Login System</h1>
+        <input type="text" class="form-control text-white bg-transparent " placeholder="Enter your name">
+
+        <input type="password" class="form-control text-white bg-transparent  my-3" placeholder="Enter your password">
+         
+        <button class="btn btn-primary w-100 loginbutton my-2"> log in</button>
+        <p class="text-danger d-none">do not have acount  with this crdential .</p>
+        <span class="text-white">Don’t have an account?</span>
+        <span href="" class="signup text-white">Sign Up</span>
+        
+    </div>
+    <div class="parent  adduser text-center d-none px-4 ">
+        <h1 class="py-3">Smart Login System</h1>
+        
+        <input type="text" class="userName form-control text-white mb-3 name bg-transparent " placeholder="Enter your name">
+
+
+        <input type="email" class="userEmali form-control text-white bg-transparent " placeholder="Enter your email">
+
+        <input type="password" class="userPassword form-control text-white bg-transparent  my-3" placeholder="Enter your password">
+
+ 
+
+        <button class="btn btn-primary w-100 signupbutton my-2"> sign up</button>
+        <p class="d-none nonevalid text-danger">none valid inputs or account already exist</p>
+
+
+        <span class="text-white"> have an account?</span>
+        <span href="" class="SignIn text-white">Sign In</span>
+       
+    </div>
+
+    <nav class="nav d-none shadow-lg" >
+        <div class="container d-flex justify-content-between  py-3  align-items-center text-white">
+            <h4> SMART LOGIN</h4>
+        <button class="btn btn-warning text-white bg-transparent logout">Log Out </button>
+        </div>
+    </nav>
+    <div class=" home d-none d-flex justify-content-center align-items-center vh-100">
+        <div class="welcom d-flex justify-content-center align-items-center text-white">
+            <h1>welcom <span class="welcomName"></span></h1>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

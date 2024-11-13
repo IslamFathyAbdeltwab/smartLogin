@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #24353F;
+}
+.parent{
+    width: 55%;
+    height: 370px;
+    background-color: #24353F;
+    margin:50px auto;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+}
+
+.parent h1{
+    color: #17A2B8;
+}
+.parent .login{
+  
+    border-color: #17a2b8;
+    transition: background-color .2s;
+}
+.parent .signupbutton{
+  
+    border-color: #17a2b8;
+    transition: background-color .2s;
+}
+.parent .login.my-4:hover{   
+    background-color: #17A2B8 !important
+}
+
+.parent input::placeholder {
+    color:white;
+    
+  }
+  nav button:hover{
+    background-color: gold !important;
+    
+  }
+
+  .welcom{
+    width: 50%;
+    height: 23vh;
+    background-color: transparent;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    
+  }
+  .welcom h1{
+    font-size: 44px;
+    font-weight: 400;
+    letter-spacing: 1.2;
+    color: #17A2B8;
+  }
+  span.signup{
+    cursor: pointer;
+  }
+  span.login{
+    cursor: pointer;
+  }
+  .SignIn{
+    cursor: pointer;
+  }
+
+  .signupbutton{
+    cursor: pointer;
+  }
